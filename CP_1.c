@@ -83,12 +83,12 @@ int main(){
 
     int myage = 22;
     float pi_value = 3.14;
-    char myname = 'N';
+    char myname[10] = "Nibas";
 
 
     printf("age is %d\n", myage);
     printf("Value of pi is %f\n", pi_value);
-    printf("First letter of My name is %c\n", myname);
+    printf("First letter of My name is %s\n", myname);
 
 // -------------------------------------------------------------------------------
 
