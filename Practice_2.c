@@ -1,10 +1,11 @@
 // Solve :
 #include<stdio.h>
 int main(){
-
+    // ---> 1
     int a = 1.999999; // To analyse weather value of a is (1/2) 
     printf("%d \n", a);
 
+    // ---> 2
     // 5*2 - 2*3
     // 5*2 / 2*3
     // 5*(2/2)*3
