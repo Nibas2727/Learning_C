@@ -73,6 +73,45 @@ int main(){
     // ---> Case Control
 
 
+    // Operator
+
+    // ---> Arithmetic Operators ---> |+, -, *, /|
+    // ---> Relational Operator
+    // ---> Logical Operator
+    // ---> Bitwise Operator
+    // ---> Assignment Operator
+    // ---> Ternary Operator
+ 
+    // ---> Relational Operator
+    // |==, >, <, >=, <=, !=|
+
+    printf("\n %d ", 4==4);   // 1 Means |TRUE|
+    printf("\n %d ", 4==5);   // 0 Means |FALSE|
+    printf("\n %d ", 4>5);
+    printf("\n %d ", 4<5);
+    printf("\n %d ", 4>=5);
+    printf("\n %d ", 4<=5);
+
+    // ---> Logical Operator
+    
+    // && ---> AND
+    // || ---> OR
+    // ! ---< NOT ---> True ko false and False ko true banadega
+    
+    printf("\n %d ", 4<=5 && 4>5);   // ---> AND(&&) Operator
+    printf("\n %d ", 4<=5 || 4>5);   // ---> OR(||) Operator
+    printf("\n %d ", !(4 < 5));   // ---> 4 < 5 True hai but (!) usko false banadega
+
+    // ---> Assignment Operator ---> |=, +=, -=, *=, /=, %=|
+    // Shorthand Operator
+
+    int a5 = 2,b5 = 3;
+    a5 += b5 ;   // ---> a = a + b
+    // agar do same variable ho like hear = se pahle and bad mai a hai udahr we can make it short and use assignment operator to make ourcode short 
+    printf("\n%d", a5);
+
+
+
 
     return 0;
 }
