@@ -76,10 +76,10 @@ int main(){
     // Operator
 
     // ---> Arithmetic Operators ---> |+, -, *, /|
-    // ---> Relational Operator
-    // ---> Logical Operator
-    // ---> Bitwise Operator
-    // ---> Assignment Operator
+    // ---> Relational Operator ---> |==, >, <, >=, <=, !=|
+    // ---> Logical Operator ---> (&&, !, ||)
+    // ---> Bitwise Operator 
+    // ---> Assignment Operator ---> |=, +=, -=, *=, /=, %=|
     // ---> Ternary Operator
  
     // ---> Relational Operator
