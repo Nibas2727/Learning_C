@@ -1,3 +1,4 @@
+// Conditional Statement😎
 #include<stdio.h>
 int main(){
     // Conditional statement
@@ -22,8 +23,7 @@ int main(){
     if (age >= 18)
     {
         printf("\nYou can drive");
-    }
-    else{
+    } else{
         printf("\nYou can not drive");
     }
 
@@ -74,8 +74,8 @@ int mark;
     }
 */
 
-    // We can only use number of character in swtich statement
-    // simple switch program to print days if week 
+    // We can only use number or character in swtich statement
+    // simple switch program to print days of week 
 
     int day; //1-mon; 2-tues; 3-wed; ......; 7-sun;
     printf("\nEnter day(1-7)");
@@ -107,11 +107,11 @@ int mark;
         printf(":Enter no between(1 to 7)");
         break;
     }
-
+    // Break statemnt is necessary or else vo jidhar statement true hoga udhar se sab cases execute kardega
     // Cases can be in any order
     // Nested swtich (switch inside switch) are allowed
 
-    // Nested if
+    // Nested if ---> if statement insdie if 
     int num1;
     printf("\nEnter a no");
     scanf("%d",&num1);
