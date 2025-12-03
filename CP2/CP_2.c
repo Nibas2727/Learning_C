@@ -1,3 +1,4 @@
+// Instruction & Operators
 #include<stdio.h>
 int main(){
     // Instructions
@@ -12,10 +13,10 @@ int main(){
     int c = b + 1;
     int d = 1, e;
 */
-    // INVALID ---> simple.... you must declare a variable before use or else its invalid
+    // INVALID ---> simple.... you must declare a variable before using or else its invalid
 /*
     int oldAge = 22;
-    int newAge = oldAge + years;
+    int newAge = oldAge + (years);
     int years = 2;
     
     |Hear it's invalid because we used (years) before decalring and c excecutes line by line code|
@@ -59,7 +60,7 @@ int main(){
     // First Multiplication then Addition 
 
     // Operation of Same precedence
-    // Left to Right ---> WE have to follow Left to right rule 
+    // Left to Right Approach ---> WE have to follow Left to right rule 
     int New1 = 4 * 3 / 6 * 2;
     printf("\n %d", New1);
     // Ans is 4
@@ -85,7 +86,7 @@ int main(){
     // ---> Relational Operator
     // |==, >, <, >=, <=, !=|
 
-    printf("\n %d ", 4==4);   // 1 Means |TRUE|
+    printf("\n %d ", 4==4);   // 1 Means |TRUE| ---> Rather then 0 everything means ture;
     printf("\n %d ", 4==5);   // 0 Means |FALSE|
     printf("\n %d ", 4>5);
     printf("\n %d ", 4<5);
@@ -106,8 +107,8 @@ int main(){
     // Shorthand Operator
 
     int a5 = 2,b5 = 3;
-    a5 += b5 ;   // ---> a = a + b
-    // agar do same variable ho like hear = se pahle and bad mai a hai udahr we can make it short and use assignment operator to make ourcode short 
+    a5 += b5 ;   // ---> a5 = a5 + b5
+    // agar do same variable ho like hear = se pahle and bad mai a5 hai udahr we can make it short and use assignment operator to make ourcode short 
     printf("\n%d", a5);
 
 
