@@ -24,9 +24,9 @@ int main(){
     char hastag = '#';
 
     // Boolean and String data type does't exist in C Programming Language
-    // 'int' ---> Stroes integers
-    // 'float' ---> Stroes Decimal
-    // 'chat' ---> Stroes characters  
+    // 'int' ---> Stores integers
+    // 'float' ---> Stores Decimal
+    // 'chat' ---> Stores characters  
 
 // -------------------------------------------------------------------------------
 
