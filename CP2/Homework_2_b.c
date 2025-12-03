@@ -6,9 +6,9 @@ int main ()
     char a;
     printf("Enter a character");
     scanf("%c", &a);
-    printf(" %d", a>'0' && a<'9' );
+    printf(" %d", a>='0' && a<='9' );
     return 0;
 }
 
 
-// I was stuck at this question bcz mujhe kuch idea nhi a raha tha kese mai ek digit ko identify karun but always remember the basic think simple
+// I was stuck at this question bcz mujhe kuch idea nhi a raha tha kese mai ek digit ko identify karun but always remember basics, and think simple
